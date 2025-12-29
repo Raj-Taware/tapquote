@@ -1,0 +1,18 @@
+# TapQuote Backend Dependencies
+
+# FastAPI & Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# LangChain & OpenAI (updated for Python 3.12 compatibility)
+langchain>=0.3.0
+langchain-openai>=0.2.0
+openai>=1.50.0
+
+# PDF Generation
+reportlab>=4.2.0
+
+# Data & Utilities
+pydantic>=2.9.0
+python-dotenv>=1.0.0
